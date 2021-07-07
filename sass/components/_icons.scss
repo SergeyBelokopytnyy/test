@@ -1,15 +1,16 @@
-.logo__icon {
+.logo-mobile__icon {
   fill: #111518;
+  align-self: center;
 }
-.logo__icon--white {
+.logo-mobile__icon--white {
   fill: #ffffff;
 }
 
-.logo__icon--fire {
+.logo-mobile__icon--fire {
   fill: #FF6B09;
 }
 
-.logo__box {
+.logo-mobile__box {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -31,15 +32,7 @@
 .logo__text--white {
   color: #ffffff;
 }
-.logo__mobile {
+.logo-mobile {
   width: 80px;
   height: 29.14px;
-}
-.header-container {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 30.5px;
 }
