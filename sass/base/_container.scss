@@ -2,14 +2,22 @@
 .container {
   padding-left: 20px;
   padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 320px;
+  // max-width: 320px;
 }
+.header {
+  position: absolute;
+  width: 100%;
 
+}
 .header-container {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   padding-top: 30.5px;
-  padding-bottom: 51.86px;
+  // padding-bottom: 51.86px;
 }
 // .fone {
 //   z-index: -1;
@@ -22,8 +30,8 @@
   position: relative;
   width: 208px;
   height: 177.5px;
-  margin-left: 36px;
-  margin-right: 36px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 77px;
 }
 .fone1 {
@@ -61,6 +69,7 @@
   color: #ff6b09;
 }
 .button {
+  display: block;
   color: #FFFFFF;
   font-size: 12px;
   line-height: 1.2;
@@ -73,8 +82,8 @@
   height: 48px;
   background-color: #ff6b09;
   border: none;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list {
@@ -87,13 +96,18 @@
   letter-spacing: 0.08em;
   color: #111518;
 }
-body {
-  background-image: url(../../images/Vector1.png);
+.hero {
+  background-image: url(../../images/vector1.png);
   background-color: #FFFFFF;
   background-repeat: no-repeat;
-    // z-index: -1;
-  // position: absolute;
+  background-position: center;
+  background-size: cover;
+  min-width: 320px;
+  height: 618px;
+  padding-top: 111.5px;
+  margin-bottom: 30px;
   // background: #FFFFFF;
   box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
-  border-color: #FFFFFF;
+  // border-color: #FFFFFF;
+  // border: none;
 }
