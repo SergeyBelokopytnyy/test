@@ -1,3 +1,4 @@
+
 .container {
   padding-left: 20px;
   padding-right: 20px;
@@ -10,28 +11,31 @@
   padding-top: 30.5px;
   padding-bottom: 51.86px;
 }
-.fone {
-  z-index: -1;
-  position: absolute;
-  background: #FFFFFF;
-  box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
-  border-color: #FFFFFF;
-}
+// .fone {
+//   z-index: -1;
+//   position: absolute;
+//   background: #FFFFFF;
+//   box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
+//   border-color: #FFFFFF;
+// }
 .fone-hero {
   position: relative;
   width: 208px;
   height: 177.5px;
-  margin-left: 56px;
-  margin-right: 56px;
+  margin-left: 36px;
+  margin-right: 36px;
+  margin-bottom: 77px;
 }
 .fone1 {
   position: absolute;
   top: 9.49px;
 }
+  
 .fone2 {
   position: absolute;
   left: 20.08px;
 }
+
 .hero__title { 
   letter-spacing: 0.03em;
   color: #111518;
@@ -69,6 +73,27 @@
   height: 48px;
   background-color: #ff6b09;
   border: none;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0.08em;
+  color: #111518;
+}
+body {
+  background-image: url(../../images/Vector1.png);
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+    // z-index: -1;
+  // position: absolute;
+  // background: #FFFFFF;
+  box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
+  border-color: #FFFFFF;
 }
