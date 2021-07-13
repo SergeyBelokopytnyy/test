@@ -38,6 +38,13 @@ body {
   min-width: 320px;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
 .header {
   position: absolute;
   width: 100%;
@@ -59,14 +66,35 @@ body {
   margin-bottom: 77px;
 }
 
+@media screen and (min-width: 768px) {
+  .fone-hero {
+    width: 375.75px;
+    height: 320.64px;
+    top: -297px;
+    left: 166px;
+  }
+}
+
 .fone1 {
   position: absolute;
   top: 9.49px;
 }
 
+@media screen and (min-width: 768px) {
+  .fone1 {
+    top: 17.15px;
+  }
+}
+
 .fone2 {
   position: absolute;
   left: 20.08px;
+}
+
+@media screen and (min-width: 768px) {
+  .fone2 {
+    left: 36.26px;
+  }
 }
 
 .hero__title {
@@ -78,6 +106,14 @@ body {
   margin-bottom: 8px;
 }
 
+@media screen and (min-width: 768px) {
+  .hero__title {
+    font-size: 26px;
+    width: 332px;
+    height: 69px;
+  }
+}
+
 .hero__text {
   font-size: 14px;
   font-weight: 500;
@@ -85,6 +121,13 @@ body {
   letter-spacing: 0.08em;
   color: #B9B9B9;
   margin-bottom: 52px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__text {
+    width: 322px;
+    height: 66px;
+  }
 }
 
 .hero__text--black {
@@ -115,6 +158,29 @@ body {
   margin-right: auto;
 }
 
+@media screen and (min-width: 768px) {
+  .button {
+    margin-left: 0;
+  }
+}
+
+.button--call {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .button--call {
+    display: block;
+    color: #ff6b09;
+    background-color: #FFFFFF;
+    border: 2px solid #ff6b09;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-right: 40px;
+    margin-left: auto;
+  }
+}
+
 .list {
   display: flex;
   flex-direction: column;
@@ -124,10 +190,13 @@ body {
   line-height: 1.6;
   letter-spacing: 0.08em;
   color: #111518;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
 }
 
 .hero {
-  background-image: url(../../images/vector1.png);
+  background-image: url(../../images/vector1-mobile.png);
   background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-position: center;
@@ -136,7 +205,42 @@ body {
   height: 618px;
   padding-top: 111.5px;
   margin-bottom: 30px;
-  box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: url(../../images/vector1-tablet.png);
+    min-width: 768px;
+    height: 556.5px;
+    padding-top: 177px;
+  }
+}
+
+.list__item {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 26px;
+}
+
+.list__item:nth-child(1)::before {
+  content: "";
+  background-image: url(../../images/advantages1.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.list__item:nth-child(2)::before {
+  content: "";
+  background-image: url(../../images/advantages2.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.list__item:nth-child(3)::before {
+  content: "";
+  background-image: url(../../images/advantages3.svg);
+  width: 100%;
+  background-repeat: no-repeat;
 }
 
 .logo-mobile__icon {
